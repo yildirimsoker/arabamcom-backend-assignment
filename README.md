@@ -1,4 +1,4 @@
-# Technical Features & Packages
+# Technical Features
 - Microsoft Visual Studio 2022
 - .NETCore Web Api 6.0
 - MS SQL SERVER 2019
