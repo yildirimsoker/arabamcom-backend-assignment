@@ -1,1 +1,15 @@
-Arabam.Com.Adverts
+# Technical Features & Packages
+- Microsoft Visual Studio 2022
+- .NETCore Web Api 6.0
+- MS SQL SERVER 2019
+- C#
+- Dapper
+- Dapper SqlBuilder
+- Fluent Validation
+- Automapper
+- RabbitMQ
+- BackgroundService
+- MediatR
+- Dependency injection
+- CQRS
+- 
