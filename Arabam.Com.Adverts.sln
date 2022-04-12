@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arabam.Com.Application", "Arabam.Com.Application\Arabam.Com.Application.csproj", "{B8444FEB-53E7-4B1A-BB5D-9315CFDF7F1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arabam.Com.Domain", "Arabam.Com.Domain\Arabam.Com.Domain.csproj", "{4B075BB4-F0C5-47A5-9D6F-FDE744EA1AB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arabam.Com.Infrastructure", "Arabam.Com.Infrastructure\Arabam.Com.Infrastructure.csproj", "{33989E03-3683-4074-8632-B26A5A59E891}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arabam.Com.Api", "Arabam.Com.Api\Arabam.Com.Api.csproj", "{5685A8FD-D088-47F3-945B-4EF09E2190FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arabam.Com.WorkerService", "Arabam.Com.WorkerService\Arabam.Com.WorkerService.csproj", "{1438AB52-1A76-4958-A7CE-15D988170BAB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{174319C4-5C0F-41C0-8C4F-4196D7C01834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8444FEB-53E7-4B1A-BB5D-9315CFDF7F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8444FEB-53E7-4B1A-BB5D-9315CFDF7F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8444FEB-53E7-4B1A-BB5D-9315CFDF7F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8444FEB-53E7-4B1A-BB5D-9315CFDF7F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B075BB4-F0C5-47A5-9D6F-FDE744EA1AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B075BB4-F0C5-47A5-9D6F-FDE744EA1AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B075BB4-F0C5-47A5-9D6F-FDE744EA1AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B075BB4-F0C5-47A5-9D6F-FDE744EA1AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33989E03-3683-4074-8632-B26A5A59E891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33989E03-3683-4074-8632-B26A5A59E891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33989E03-3683-4074-8632-B26A5A59E891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33989E03-3683-4074-8632-B26A5A59E891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5685A8FD-D088-47F3-945B-4EF09E2190FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5685A8FD-D088-47F3-945B-4EF09E2190FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5685A8FD-D088-47F3-945B-4EF09E2190FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5685A8FD-D088-47F3-945B-4EF09E2190FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1438AB52-1A76-4958-A7CE-15D988170BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1438AB52-1A76-4958-A7CE-15D988170BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1438AB52-1A76-4958-A7CE-15D988170BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1438AB52-1A76-4958-A7CE-15D988170BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174319C4-5C0F-41C0-8C4F-4196D7C01834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174319C4-5C0F-41C0-8C4F-4196D7C01834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174319C4-5C0F-41C0-8C4F-4196D7C01834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174319C4-5C0F-41C0-8C4F-4196D7C01834}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4C614E8-3182-496C-B552-C94EB1B496EA}
+	EndGlobalSection
+EndGlobal

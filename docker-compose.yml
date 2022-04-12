@@ -1,0 +1,57 @@
+version: '3.4'
+
+services:
+  arabam.com.api:
+    image: ${DOCKER_REGISTRY-}arabamcomapi
+    build:
+      context: .
+      dockerfile: Arabam.Com.Api/Dockerfile
+
+
+  arabam.com.workerservice:
+    image: ${DOCKER_REGISTRY-}arabamcomworkerservice
+    build:
+      context: .
+      dockerfile: Arabam.Com.WorkerService/Dockerfile
+
+  mssqldata:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    entrypoint: /bin/bash
+
+  sqldata:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - SA_PASSWORD=1Secure*Password1
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Enterprise
+    ports:
+      - "1438:1433"
+    volumes:
+      - /var/opt/mssql
+      # we copy our scripts onto the container
+      - ./:/usr/src/app 
+    # bash will be executed from that path, our scripts folder
+    working_dir: /usr/src/app 
+    # run the entrypoint.sh that will import the data AND sqlserver
+    command: sh -c ' chmod +x ./entrypoint.sh; ./entrypoint.sh & /opt/mssql/bin/sqlservr;'
+    volumes_from:
+      - mssqldata
+
+
+  rabbitmq: # login guest:guest
+    image: rabbitmq:3-management
+    hostname: "rabbitmq"
+    labels:
+      NAME: "rabbitmq"
+    ports:
+    - "4369:4369"
+    - "5671:5671"
+    - "5672:5672"
+    - "25672:25672"
+    - "15671:15671"
+    - "15672:15672"
+
+
+
+
+
