@@ -38,7 +38,7 @@ It will crate database and import data and start the containers.
 
 
 Note: 
-If you have a problem with the database creation process
+If you have a problem with the database creation process <br>
 You can create database using setup.sql file
 
 https://github.com/yildirimsoker/arabamcom-backend-assignment/blob/master/setup.sql
