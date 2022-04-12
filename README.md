@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=UjH7Mq-NWrc
 
 ![docker-compose](https://user-images.githubusercontent.com/4595323/163000336-b3067008-843b-4028-bcf0-6f42c1089337.png)
 
--Step 6:
+-Step 4:
 docker-compose will install all the images.
 It will crate database and import data and start the containers.
 
