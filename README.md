@@ -15,6 +15,8 @@
 
 # Quick View
 <a href="https://www.youtube.com/watch?v=UjH7Mq-NWrc" target="_blank">
- <img src="https://img.youtube.com/vi/UjH7Mq-NWrc/0.jpg" alt="Watch the video" width="240" height="180" border="10" />
+ <img src="https://img.youtube.com/vi/UjH7Mq-NWrc/0.jpg" alt="Watch the video"  border="10" />
 </a>
+
+https://www.youtube.com/watch?v=UjH7Mq-NWrc
 
